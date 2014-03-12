@@ -5,3 +5,10 @@ body {
 	line-height: 1.5em;
 	color: #222;
 }
+
+h1 {
+	font-family: 'Varela Round', sans-serif;
+    font-size: 50px;
+    color: rgb(46, 134, 246);
+}
+
