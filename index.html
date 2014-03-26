@@ -18,27 +18,45 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Load styles -->
+	<!-- Loads flexslider css -->
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 	<!-- for production, combine all of these stylesheets -->
 	<link rel="stylesheet" href="css/style.css">
+
 	
 	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
 </head>
-<body>
-
+<body class="loading">
 
 	<!-- page content goes inside the container -->
+	
 	<div class="container">
 
 		<h1>Key School Summer Camp</h1>
 		
-		<img src="img/kids.jpg" alt="Photo of happy campers." />
-		
+		<div class = "nav"
+			<ul>
+				<li> home </li>
+				<li> about </li>
+				<li><a href="location.html">location</a></li>
+				<li><a href="register.html">register</a></li>
+			</ul>
+	
+		<div id="slider">
+      	<div class="flexslider">
+          <ul class="slides">
+            <li><img src="img/kids.jpg" alt="photo of happy campers" title="photo of happy campers" /></li>
+			<li><img src="img/gym.jpg" alt="photo of children in gym" title="photo of children in gym"/></li>
+  	    	<li><img src="img/eleanorsm.jpg" alt="photo of Ms. Palm and her son, Sam" title="photo of Ms. Palm and her son, Sam"/></li>
+  	    	<li><img src="img/lego.jpg" alt="photo of children building legos" title="photo of children building legos"/></li>
+	    	<li><img src="img/paints.jpg" alt="photo of watercolor paints" title="photo of watercolor paints"/></li>
+          </ul>
+        </div>	
+        </div>	
 
 		<p>Key School Summer Camp is celebrating its 12th year! Come join us as we pass the summer days playing sports, creating amazing artwork and building lego structures in a fun, familiar and happy setting. Picnic lunches, popsicle parties, our ever-popular talent show and our much loved counselors (once campers themselves) are just a few of the exciting Key Camp traditions that bring our campers back every year. 
 		</p>
-
-	<img src="img/blueslice.gif" alt="Photo kickball." />
 
 	</div><!-- end container -->
 	
@@ -48,6 +66,35 @@
 	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
 	<script src="js/plugins.js"></script>
 	<script src="js/main.js"></script>
+	
+	
+	<!-- FlexSlider -->
+	<script defer src="js/jquery.flexslider.js"></script>
+
+	<script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+	</script>
+
+
+	<!-- Syntax Highlighter -->
+	<script type="text/javascript" src="js/shCore.js"></script>
+	<script type="text/javascript" src="js/shBrushXml.js"></script>
+	<script type="text/javascript" src="js/shBrushJScript.js"></script>
+
+	<!-- Optional FlexSlider Additions -->
+  	<script src="js/jquery.easing.js"></script>
+  	<script src="js/jquery.mousewheel.js"></script>
+  	<script defer src="js/demo.js"></script>
 
 </body>
 </html>

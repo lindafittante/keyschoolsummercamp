@@ -15,4 +15,7 @@
 
 */
 
+/* Custom Form Styles */
 
+#camp_form, #emergency_form {
+	padding: 50px 0;}
