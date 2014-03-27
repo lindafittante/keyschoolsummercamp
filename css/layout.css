@@ -1,4 +1,9 @@
 
+body {
+	background-image: url('../img/flower.jpg');
+	background-position: center top;
+	background-repeat:  no-repeat;
+}
 	
 .container {
 	margin-top: 1em;
@@ -8,7 +13,23 @@
 	width: 90%;
 	max-width: 800px;
 	padding: 2em;
-	border: 1px solid #eee;
-
 }
 
+nav {
+ 	background-color: #fde681;
+	text-align: center
+	}
+
+nav a {
+	color: #ec8005;
+	text-decoration:none
+}
+
+nav li {
+	display: inline;
+	margin-right: 50px 	
+	}
+
+.active {
+	color: rgb(44, 132, 244);	
+	}
