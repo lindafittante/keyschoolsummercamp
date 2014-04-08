@@ -1,8 +1,11 @@
 
 body {
-	background-image: url('../img/flower.jpg');
+	background-image: ;
 	background-position: center top;
 	background-repeat:  no-repeat;
+	background-size: cover;
+	height: 300px
+
 }
 	
 .container {
@@ -15,10 +18,32 @@ body {
 	padding: 2em;
 }
 
+.about-box {
+	margin-top: 2em;
+	margin-right: none;
+	margin-bottom: 1em;
+	width: 90%;
+	max-width: 800px;
+	max-height: 100px;
+}
+
+.about-text { 
+	margin-right: none;
+	width: 90%;
+	max-width: 800px;
+	max-height: 100px;
+}
+
+
+img.align-left {
+	float: left;
+	margin-right: 20px
+}
+
 nav {
- 	background-color: #fde681;
+ 	background-color: #fbc01c;
 	text-align: center
-	}
+}
 
 nav a {
 	color: #ec8005;
@@ -33,3 +58,39 @@ nav li {
 .active {
 	color: rgb(44, 132, 244);	
 	}
+	
+.about {
+	width: 550px;
+	margin-right: 50px;
+	float: left;
+	clear: left;
+}
+
+.birds {
+	background-image: url('../img/birds.jpg');
+	background-position: center top;
+	background-repeat:  no-repeat;
+	background-size: 100%;
+
+}
+
+.bottom {
+	margin-top: -100px;
+	margin-right: none;
+	margin-bottom: none;
+	width: 100%;
+}
+
+.soccer {
+	margin-top: none;
+	margin-right: none;
+	margin-bottom: none;
+	width: 100%;
+}
+
+}
+
+/* Contain floats: h5bp.com/q */ 
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
