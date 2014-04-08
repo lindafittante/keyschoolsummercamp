@@ -1,12 +1,13 @@
 
 body {
-	background-image: ;
+	background-image:url;
 	background-position: center top;
 	background-repeat:  no-repeat;
 	background-size: cover;
 	height: 300px
 
 }
+
 	
 .container {
 	margin-top: 1em;
@@ -41,7 +42,7 @@ img.align-left {
 }
 
 nav {
- 	background-color: #fbc01c;
+ 	background-color: ;
 	text-align: center
 }
 
@@ -74,8 +75,14 @@ nav li {
 
 }
 
+.pay{
+	float: left;
+	margin-top: -200px;
+}
+
+
 .bottom {
-	margin-top: -100px;
+	margin-top: none;
 	margin-right: none;
 	margin-bottom: none;
 	width: 100%;
@@ -88,7 +95,16 @@ nav li {
 	width: 100%;
 }
 
+footer {
+	color: rgb(44, 132, 244);
+	text-decoration:none;
+	text-align: center;
+	margin-top: none;
+	margin-right: none;
+	margin-bottom: none;
+
 }
+
 
 /* Contain floats: h5bp.com/q */ 
 .clearfix:before, .clearfix:after { content: ""; display: table; }

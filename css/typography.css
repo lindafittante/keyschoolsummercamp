@@ -27,7 +27,7 @@ body {
 
 h1 {
 	font-family: 'Varela Round', sans-serif;
-    font-size: 50px;
+    font-size: 55px;
     color: rgb(46, 134, 246);
     text-align: center;
 }
@@ -50,3 +50,9 @@ li {
 	display: inline;
 }
 
+footer {
+	font-family:'Varela Round', sans-serif;
+    font-size: 16px;
+    color: rgb(46, 134, 246);
+    text-align: center;
+    }
