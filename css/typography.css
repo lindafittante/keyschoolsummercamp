@@ -39,9 +39,16 @@ h2 {
     padding: none
 }
 
+h3 {
+	font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    color: rgb(46, 134, 246);
+    padding: none
+}
+
 nav {
 	font-family:'Varela Round', sans-serif;
-    font-size: 20px;
+    font-size: 28px;
     color: rgb(46, 134, 246);
     text-align: center;
     }
@@ -53,7 +60,7 @@ li {
 footer {
 	font-family:'Varela Round', sans-serif;
     font-size: 16px;
-    color: rgb(46, 134, 246);
-    text-align: center;
+    color: black;
+    text-align: left;
     padding: none;
     }
