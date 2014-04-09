@@ -1,13 +1,23 @@
 
 body {
-	background-image:url;
+	background-image:url('../img/flower.jpg');
 	background-position: center top;
 	background-repeat:  no-repeat;
 	background-size: cover;
 	height: 300px
-
 }
 
+.header {
+	margin-bottom: 2em;
+}
+
+sun {
+	background-image:url('../img/sun.jpg');
+	background-position: center top;
+	background-repeat:  no-repeat;
+	background-size: cover;
+	height: 300px
+}
 	
 .container {
 	margin-top: 1em;
@@ -34,7 +44,6 @@ body {
 	max-width: 800px;
 	max-height: 100px;
 }
-
 
 img.align-left {
 	float: left;
@@ -77,9 +86,8 @@ nav li {
 
 .pay{
 	float: left;
-	margin-top: -200px;
+	margin-top: -100px;
 }
-
 
 .bottom {
 	margin-top: none;
@@ -102,7 +110,14 @@ footer {
 	margin-top: none;
 	margin-right: none;
 	margin-bottom: none;
+}
 
+email {
+	float: left;
+	clear: left;
+	margin-right: none;
+	width: 10%;
+	max-height: 50px;
 }
 
 
