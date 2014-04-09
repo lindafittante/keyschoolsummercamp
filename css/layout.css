@@ -4,8 +4,7 @@ body {
 	background-position: center top;
 	background-repeat:  no-repeat;
 	background-size: cover;
-	height: 300px
-}
+	}
 
 .header {
 	margin-bottom: 2em;
@@ -30,9 +29,9 @@ sun {
 }
 
 .about-box {
-	margin-top: 2em;
+	margin-top: none;
 	margin-right: none;
-	margin-bottom: 1em;
+	margin-bottom: 2em;
 	width: 90%;
 	max-width: 800px;
 	max-height: 100px;
