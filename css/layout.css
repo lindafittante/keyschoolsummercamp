@@ -1,12 +1,24 @@
+h1, h2, h3 {
+	padding: 0;
+	margin: 0;
+}
 
-body {
-	background-image:url('../img/flower.jpg');
+.flower {
+		background-image:url('../img/flower.jpg');
+		background-position: center top;
+		background-repeat:  no-repeat;
+		background-size: cover;
+		height: 300px;
+		}
+	
+.sun {
+	background-image:url('../img/sun.jpg');
 	background-position: center top;
 	background-repeat:  no-repeat;
 	background-size: cover;
-	height: 300px;
+	height: 200px;
 	}
-
+		
 .header {
 	margin-bottom: 2em;
 }
@@ -20,19 +32,14 @@ sun {
 }
 	
 .container {
-	margin-top: 1em;
-	margin-right: auto;
-	margin-bottom: 1em;
-	margin-left: auto;
+	margin:  0 auto;
 	width: 90%;
 	max-width: 800px;
 	padding: 2em;
 }
 
 .about-box {
-	margin-top: none;
-	margin-right: none;
-	margin-bottom: 2em;
+	margin: 0 0 2em 0;
 	width: 90%;
 	max-width: 800px;
 	max-height: 100px;
@@ -66,7 +73,7 @@ nav li {
 	}
 
 .active {
-	color: #f76525;	
+	color: #fa5542;	
 	}
 	
 .about {
@@ -103,31 +110,24 @@ nav li {
 	width: 100%;
 }
 
-.footer {
-	border-top: 1px solid #333;
+footer {
 	text-decoration:none;
-	text-align: center;
-	margin-top: none;
-	margin-right: none;
-	margin-bottom: none;
+	border-top: 1px solid rgb(46, 134, 246);
+	margin: 2em 0 0 0;
 }
 
 .email {
-	border: 1px solid #333;
+	margin:  1.4em 0;
+	padding:  0;
 	float: left;
-	clear: left;
-	margin-right: none;
-	width: 5%;
-	max-height: 50px;
+	width: 10%;
 }
 
 .contact { 
-	border: 1px solid #333;
-	position: left;
-	margin-right: none;
-	width: 90%;
-	max-width: 800px;
-	max-height: 50px;
+	margin: 0;
+	padding:  0;
+	float: left;
+	width: 85%;
 }
 
 
