@@ -1,7 +1,9 @@
+/* Top of Page ===============*/
+
 h1, h2, h3 {
 	padding: 0;
 	margin: 0;
-}
+	}
 
 .flower {
 		background-image:url('../img/flower.jpg');
@@ -21,51 +23,20 @@ h1, h2, h3 {
 		
 .header {
 	margin-bottom: 2em;
-}
+	}
 
-sun {
-	background-image:url('../img/sun.jpg');
-	background-position: center top;
-	background-repeat:  no-repeat;
-	background-size: cover;
-	height: 300px
-}
-	
-.container {
-	margin:  0 auto;
-	width: 90%;
-	max-width: 800px;
-	padding: 2em;
-}
 
-.about-box {
-	margin: 0 0 2em 0;
-	width: 90%;
-	max-width: 800px;
-	max-height: 100px;
-}
-
-.about-text { 
-	margin-right: none;
-	width: 90%;
-	max-width: 800px;
-	max-height: 100px;
-}
-
-img.align-left {
-	float: left;
-	margin-right: 20px
-}
+/* Navigation ===============*/
 
 nav {
  	background-color: ;
 	text-align: center
-}
+	}
 
 nav a {
 	color: #ec8005;
 	text-decoration:none
-}
+	}
 
 nav li {
 	display: inline;
@@ -76,59 +47,94 @@ nav li {
 	color: #fa5542;	
 	}
 	
+/* Page Body ===============*/
+
+.container {
+	margin:  0 auto;
+	width: 90%;
+	max-width: 800px;
+	padding: 2em;
+	}
+
+/* About Page ===============*/
+
+.about-box {
+	margin: 0 0 2em 0;
+	width: 90%;
+	max-width: 800px;
+	max-height: 100px;
+	}
+
+.about-text { 
+	margin-right: none;
+	width: 90%;
+	max-width: 800px;
+	max-height: 100px;
+	}
+
+img.align-left {
+	float: left;
+	margin-right: 20px
+	}
+
 .about {
 	width: 550px;
 	margin-right: 50px;
 	float: left;
 	clear: left;
-}
+	}
 
-.birds {
-	background-image: url('../img/birds.jpg');
-	background-position: center top;
-	background-repeat:  no-repeat;
-	background-size: 100%;
-
-}
-
-.pay{
-	float: left;
-	margin-top: -100px;
-}
-
-.bottom {
-	margin-top: none;
-	margin-right: none;
-	margin-bottom: none;
-	width: 100%;
-}
+/* Location Page ===============*/
 
 .soccer {
 	margin-top: none;
 	margin-right: none;
 	margin-bottom: none;
 	width: 100%;
-}
+	}
+
+/* Registration Page ===============*/
+
+.birds {
+	background-image: url('../img/birds.jpg');
+	background-position: center top;
+	background-repeat:  no-repeat;
+	background-size: 100%;
+	}
+
+.pay{
+	float: left;
+	margin-top: -100px;
+	}
+
+.bottom {
+	margin-top: none;
+	margin-right: none;
+	margin-bottom: none;
+	width: 100%;
+	}
+
+/* Footer ===============*/
 
 footer {
 	text-decoration:none;
 	border-top: 1px solid rgb(46, 134, 246);
 	margin: 2em 0 0 0;
-}
+	}
 
 .email {
 	margin:  1.4em 0;
 	padding:  0;
 	float: left;
 	width: 10%;
-}
+	}
 
 .contact { 
 	margin: 0;
 	padding:  0;
 	float: left;
 	width: 85%;
-}
+	}
 
 
 
