@@ -6,19 +6,11 @@ h1, h2, h3 {
 	}
 
 .flower {
-		background-image:url('../img/flower.jpg');
-		background-position: center top;
-		background-repeat:  no-repeat;
-		background-size: cover;
-		height: 300px;
-		}
-	
-.sun {
-	background-image:url('../img/sun.jpg');
+	background-image:url('../img/flower.jpg');
 	background-position: center top;
 	background-repeat:  no-repeat;
 	background-size: cover;
-	height: 200px;
+	height: 300px;
 	}
 		
 .header {
@@ -59,6 +51,13 @@ nav li {
 /* About Page ===============*/
 
 .about-box {
+	margin: 0 0 2em 0;
+	width: 90%;
+	max-width: 800px;
+	max-height: 100px;
+	}
+
+.firstabout-box {
 	margin: 0 0 2em 0;
 	width: 90%;
 	max-width: 800px;
