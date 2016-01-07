@@ -33,6 +33,12 @@ h3 {
 	color: rgb(46, 134, 246);
 }
 
+h4 {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 20px;
+	color: #222;
+}
+
 nav {
 	font-family:'Varela Round', sans-serif;
 	font-size: 28px;
