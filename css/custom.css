@@ -4,3 +4,4 @@ html{background-image:url("http://keyschoolsummercamp.com/img/flower.jpg");
 	background-repeat:  no-repeat;
 	background-size: cover;
 }
+body {border: 10px solid black;}
