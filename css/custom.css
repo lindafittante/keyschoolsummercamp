@@ -1,4 +1,6 @@
-/* Backgrounds */
-html{background-image:url('http://keyschoolsummercamp.com/img/flower.jpg'); background-position: center top;
+
+html{background-image:url('http://keyschoolsummercamp.com/img/flower.jpg');
+	background-position: center top;
 	background-repeat:  no-repeat;
-	background-size: cover;}
+	background-size: cover;
+}
